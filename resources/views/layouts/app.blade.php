@@ -19,7 +19,18 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body  background= "linear-gradient(30deg, rgba(0,94,236,1) 0%, rgba(0,212,255,1) 100%)">
+<style>
+            html, body {
+                background: rgb(9,0,156);
+                background: linear-gradient(30deg, rgba(9,0,156,1) 0%, rgba(0,94,236,1) 0%, rgba(0,212,255,1) 100%); 
+                color: #fefefe;
+                font-family: 'Nunito', sans-serif;
+                font-weight: bold;
+                height: 100vh;
+                margin: 0;
+            }
+</style>
+<body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
