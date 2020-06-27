@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-image: url(asset('assets/img/back-wallpaper.png'))
+                background-image: url("{{asset('assets/img/back-wallpaper.png')}}")
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
