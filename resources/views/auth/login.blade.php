@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container" style={background: rgb(0,94,236);
-                                background: linear-gradient(30deg, rgba(0,94,236,1) 0%, rgba(0,212,255,1) 100%);}>
+<div class="container" style="background: rgb(0,94,236);
+    background: linear-gradient(30deg, rgba(0,94,236,1) 0%, rgba(0,212,255,1) 100%);">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
