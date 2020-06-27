@@ -9,14 +9,14 @@
               @foreach($wilayas as $wilaya)
               <div class="col-md-12">
                   <div class="card">
-                      <div class="card-header card-header-primary ",>
+                      <div class="card-header card-header-info ",>
                           <h4 class="card-title "> Table {{$wilaya->name}} </h4>
 
                       </div>
                       <div class="card-body">
                           <div class="table-responsive">
                               <table class="table">
-                                  <thead class=" text-primary">
+                                  <thead class=" text-info">
                                   <th>
                                       ID
                                   </th>
@@ -51,9 +51,9 @@
                                           <td>
                                               {{$decision1->user->name}}
                                           </td>
-                                          <td class="text-primary">
+                                          <td class="text-info">
                                               {{$decision1->wilaya->name}}
-                                          </td>  <td class="text-primary">
+                                          </td>  <td class="text-info">
                                               {{$decision1->created_at->diffForHumans()}}
                                           </td>
 
