@@ -81,7 +81,7 @@ Clover Tech
 
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
-                    <button type="submit" class="btn btn-primary pull-right " >Logout</button>
+                    <button type="submit" class="btn btn-info pull-right " >Logout</button>
                 </form>
 
 
