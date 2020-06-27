@@ -116,7 +116,7 @@
                              {{$wilaya->user->email}}
                           </td>
                           <td class="text-info">
-                              {{$wilaya->created_at->diffForHumans()}}                          </td>
+                              {{$wilaya->updated_at}}                          </td>
                           <td>
                               <a   class="btn btn-info pull-right" href="{{route('wilaya.delete',['id'=>$wilaya->id])}}"><span>Delete Wilaya</span></a>
                           </td>
