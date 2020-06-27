@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home')->with('nombreuser',User::all()->count())->with('nombresafe',Wilaya::where('etat',"safe")->count())
-            ->with('nombredanger',Wilaya::where('etat',"danger")->count());
+        return view('home')->with('nombreuser',User::all()->count())->with('nombresafe',Wilaya::where('etat',true)->count())
+            ->with('nombredanger',Wilaya::where('etat',false)->count());
     }
 }
