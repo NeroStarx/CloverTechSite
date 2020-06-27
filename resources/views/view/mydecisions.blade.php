@@ -153,7 +153,7 @@
                             {{$decision->content}}
                           </td>
                           <td class="text-info">
-                              {{$decision->created_at->diffForHumans()}}
+                              {{$decision->updated_at->diffForHumans()}}
                           </td>
                             <td>
                                 <a   class="btn btn-info pull-right" href="{{route('decision.delete',['id'=>$decision->id])}}"><span>Delete Decision</span></a>
