@@ -43,9 +43,9 @@ class WilayasController extends Controller
         );
 
         $Wilaya=Wilaya::find($request->wilaya_id);
-        if ($request->etat=="safe"){
+        if ($request->etat=="danger"){
         $Wilaya->etat=true;}
-        else{
+        else if ($request->etat=="safe"){
             $Wilaya->etat=false;
         }
         $Wilaya->user_id=Auth::id();
