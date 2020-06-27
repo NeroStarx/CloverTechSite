@@ -106,8 +106,10 @@
                           <td>
                               @if($wilaya->etat)
                                 safe
-                              @else
+                              @elseif(!$wilaya->etat)
                               danger
+                              @else
+                              not defined
                               @endif
                           </td>
                           <td>
