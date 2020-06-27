@@ -104,9 +104,9 @@
                             {{$wilaya->name}}
                           </td>
                           <td>
-                              @if($wilaya->etat)
+                              @if(!$wilaya->etat)
                                 safe
-                              @elseif(!$wilaya->etat)
+                              @elseif($wilaya->etat)
                               danger
                               @else
                               not defined
