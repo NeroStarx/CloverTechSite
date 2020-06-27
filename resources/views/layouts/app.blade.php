@@ -29,6 +29,12 @@
                 height: 100vh;
                 margin: 0;
             }
+            
+            .navbar{
+            background: #00000000;
+            color: white;
+            font-weight: bold;
+            }
 </style>
 <body>
     <div id="app">
