@@ -118,7 +118,7 @@
                 <div class="card-body">
                   <div class="table-responsive">
                     <table class="table">
-                      <thead class=" text-primary">
+                      <thead class=" text-info">
                         <th>
                           ID
                         </th>
@@ -152,7 +152,7 @@
                           <td>
                             {{$decision->content}}
                           </td>
-                          <td class="text-primary">
+                          <td class="text-info">
                               {{$decision->created_at->diffForHumans()}}
                           </td>
                             <td>
