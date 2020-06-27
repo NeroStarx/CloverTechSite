@@ -19,7 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body  background="{{asset('assets/img/back-wallpaper.png')}}">
+<body  background= "linear-gradient(30deg, rgba(0,94,236,1) 0%, rgba(0,212,255,1) 100%);" >
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
