@@ -54,7 +54,7 @@
                                             <label class="bmd-label-floating">L'etat de Wilaya</label>
                                             <select name="etat" class="form-control">
                                                 <option value="safe">safe</option>
-                                                <option value="true">danger</option>
+                                                <option value="danger">danger</option>
                                             </select>
                                         </div>
                                     </div>
