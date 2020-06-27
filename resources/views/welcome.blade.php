@@ -16,7 +16,7 @@
                 background: linear-gradient(30deg, rgba(9,0,156,1) 0%, rgba(0,94,236,1) 0%, rgba(0,212,255,1) 100%); 
                 color: #fefefe;
                 font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+                font-weight: bold;
                 height: 100vh;
                 margin: 0;
             }
@@ -47,11 +47,11 @@
 
             .title {
                 font-size: 84px;
-                font-weight: bolder;
+                font-weight: bold;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #ffffff;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
