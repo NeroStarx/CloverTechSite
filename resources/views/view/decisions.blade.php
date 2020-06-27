@@ -54,7 +54,7 @@
                                           <td class="text-info">
                                               {{$decision1->wilaya->name}}
                                           </td>  <td class="text-info">
-                                              {{$decision1->created_at->diffForHumans()}}
+                                              {{$decision1->updated_at->diffForHumans()}}
                                           </td>
 
                                       </tr>
